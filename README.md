@@ -1,4 +1,4 @@
-****# django-demo-mysql
+# django-demo-mysql
 Django tutorial for creating, retrieving, updating and deleting basic records
 
 <admin>
