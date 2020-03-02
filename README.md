@@ -1,4 +1,4 @@
-# django-demo-mysql
+****# django-demo-mysql
 Django tutorial for creating, retrieving, updating and deleting basic records
 
 <admin>
@@ -65,6 +65,14 @@ https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 ## 7. Create your models
 ###### Modify models.py and add your classes
+###### Register your model to *admin.py*
+##### Format: 
+    admin.site.register('modelname')
+##### Example: 
+    admin.site.register(Person)
+###### You can add additional configuration by other another
+###### configuration by adding a ModelAdmin
+https://docs.djangoproject.com/en/3.0/intro/tutorial02/#make-the-poll-app-modifiable-in-the-admin
 
 ## 8. Configure your models
 ###### Modify apps.py and add a class config
